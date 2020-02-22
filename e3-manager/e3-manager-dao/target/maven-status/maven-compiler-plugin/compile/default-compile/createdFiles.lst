@@ -1,0 +1,11 @@
+com\chao\mapper\TbItemParamItemMapper.class
+com\chao\mapper\TbOrderMapper.class
+com\chao\mapper\TbItemDescMapper.class
+com\chao\mapper\TbItemCatMapper.class
+com\chao\mapper\TbItemMapper.class
+com\chao\mapper\TbContentCategoryMapper.class
+com\chao\mapper\TbUserMapper.class
+com\chao\mapper\TbOrderShippingMapper.class
+com\chao\mapper\TbContentMapper.class
+com\chao\mapper\TbItemParamMapper.class
+com\chao\mapper\TbOrderItemMapper.class

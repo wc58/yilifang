@@ -1,0 +1,4 @@
+com\chao\user\controller\TokenUserController.class
+com\chao\user\controller\CheckUserController.class
+com\chao\user\controller\RegistUserController.class
+com\chao\user\controller\LoginUserController.class

@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [19/Oct/2019:10:06:16 +0800] "GET /js/e3mall.js HTTP/1.1" 304 - http-bio-8480-exec-2 55
+0:0:0:0:0:0:0:1 - - [19/Oct/2019:10:06:16 +0800] "GET /search.html?keyword=%E7%AC%94%E8%AE%B0%E6%9C%AC HTTP/1.1" 200 23542 http-bio-8480-exec-1 3662
+0:0:0:0:0:0:0:1 - - [19/Oct/2019:10:06:18 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8480-exec-14 2
+0:0:0:0:0:0:0:1 - - [19/Oct/2019:10:07:23 +0800] "GET /search.html?keyword=%E7%AC%94%E8%AE%B0%E6%9C%AC HTTP/1.1" 200 23542 http-bio-8480-exec-10 55
+0:0:0:0:0:0:0:1 - - [19/Oct/2019:10:15:35 +0800] "GET /html/web/_public/_ajaxStaticMenu.html?v20140430 HTTP/1.1" 404 949 http-bio-8480-exec-12 2

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-order/e3-order-service/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-order/e3-order-service/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-manager-web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-manager-web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-portal-web/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-portal-web/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web4">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-cart/e3-cart-service/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-cart/e3-cart-service/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web5">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-search-web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-search-web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web6">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-search/e3-search-service/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-search/e3-search-service/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web7">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-search/e3-search-service/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-search/e3-search-service/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web8">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-manager-service/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-manager-service/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web9">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-cart/e3-cart-service/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-cart/e3-cart-service/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web10">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-user/e3-user-service/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-user/e3-user-service/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web11">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-user-web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-user-web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web12">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-cart-web/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-cart-web/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web13">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-order-web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-order-web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web14">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-cart-web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-cart-web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web15">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-manager-web/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-manager-web/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web16">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-user-web/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-user-web/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web17">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-content/e3-content-service/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-content/e3-content-service/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web18">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-order/e3-order-service/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-order/e3-order-service/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web19">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-manager/e3-manager-service/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-manager/e3-manager-service/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web20">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-order-web/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-order-web/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web21">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-content/e3-content-service/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-content/e3-content-service/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web22">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-search-web/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-search-web/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web23">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-user/e3-user-service/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-user/e3-user-service/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web24">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-item-web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-item-web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web25">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-portal-web/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-portal-web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web26">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-manager-service/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-manager-service/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web27">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/e3-item-web/target/tomcat/conf/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/e3-item-web/target/tomcat/conf" relative="/WEB-INF" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

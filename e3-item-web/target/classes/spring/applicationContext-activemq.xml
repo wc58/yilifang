@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+    http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+
+    <!-- 配置默认工厂 -->
+    <bean id="activeMQConnectionFactory" class="org.apache.activemq.spring.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://192.168.25.134:61616"/>
+    </bean>
+    <!-- 配置spring工厂 -->
+    <bean id="singleConnectionFactory" class="org.springframework.jms.connection.SingleConnectionFactory">
+        <property name="targetConnectionFactory" ref="activeMQConnectionFactory"/>    
+    </bean>
+    <!-- 配置模板 
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="singleConnectionFactory"></property>
+    </bean>-->
+    <!-- 配置目的地 -->
+    <bean id="activeMQTopic" class="org.apache.activemq.command.ActiveMQTopic">
+        <property name="physicalName" value="topicItemId"></property>
+    </bean>
+    <!-- 配置监听器 -->
+    <bean id="itemMessageListener" class="com.chao.item.listener.ItemMessageListener"></bean>
+    <!-- 配置监听器容器 -->
+    <bean id="defaultMessageListenerContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+        <property name="connectionFactory" ref="singleConnectionFactory"/>
+        <property name="destination" ref="activeMQTopic"/>
+        <property name="messageListener" ref="itemMessageListener"></property>
+    </bean>
+</beans>

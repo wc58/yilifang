@@ -1,0 +1,2 @@
+com\chao\search\controller\SearchController.class
+com\chao\search\exception\GlobalExceptionResolver.class

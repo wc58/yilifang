@@ -1,0 +1,6 @@
+com\chao\search\mapper\SearchMapper.class
+com\chao\search\service\impl\SearchItemServiceImpl.class
+com\chao\search\dao\ISearchItemDao.class
+com\chao\search\dao\impl\SearchItemDaoImpl.class
+com\chao\search\listener\ItemMessageListener.class
+com\chao\search\service\impl\SearchServiceImpl.class
